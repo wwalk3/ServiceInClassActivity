@@ -3,11 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/action_stop_player"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:icon="@android:drawable/alert_light_frame"
-        android:title="Stop"
+        android:id="@+id/action_start_player"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="Start"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_pause_player"
@@ -17,8 +15,10 @@
         android:title="Pause"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/action_start_player"
-        android:icon="@android:drawable/ic_media_play"
-        android:title="Start"
+        android:id="@+id/action_stop_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@android:drawable/btn_dialog"
+        android:title="Stop"
         app:showAsAction="ifRoom" />
 </menu>
